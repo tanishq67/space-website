@@ -18,39 +18,36 @@ export default function About() {
           possibilities that Mars colonization presents.
         </div>
       </div>
-      <div className={style.content}>
-        <div className={style.section}>
-          <div className={style.sectionTitle}>Why Mars?</div>
-          <div className={style.sectionContent}>
-            Why should we colonize Mars? The answer lies in our innate human
-            desire to explore, to push boundaries, and to ensure the survival of
-            our species. Mars, with its similarities to Earth and its potential
-            for habitation, presents a unique opportunity. Colonizing Mars could
-            lead to breakthroughs in technology and science, potentially even
-            answering the age-old question: Are we alone in the universe?
-          </div>
+      <div className={style.section}>
+        <div className={style.sectionTitle}>Why Mars?</div>
+        <div className={style.sectionContent}>
+          Why should we colonize Mars? The answer lies in our innate human
+          desire to explore, to push boundaries, and to ensure the survival of
+          our species. Mars, with its similarities to Earth and its potential
+          for habitation, presents a unique opportunity. Colonizing Mars could
+          lead to breakthroughs in technology and science, potentially even
+          answering the age-old question: Are we alone in the universe?
         </div>
-        <div className={style.section}>
-          <div className={style.sectionTitle}>The Plan</div>
-          <div className={style.sectionContent}>
-            Our plan for colonizing Mars is ambitious yet achievable. It begins
-            with unmanned missions to study the planet in detail. Next, we aim
-            to establish a base for robots and, eventually, humans. Overcoming
-            challenges such as radiation, low gravity, and limited resources
-            will require innovation and determination. But we believe in the
-            power of human ingenuity to rise to these challenges.
-          </div>
+      </div>
+      <div className={style.section}>
+        <div className={style.sectionTitle}>The Plan</div>
+        <div className={style.sectionContent}>
+          Our plan for colonizing Mars is ambitious yet achievable. It begins
+          with unmanned missions to study the planet in detail. Next, we aim to
+          establish a base for robots and, eventually, humans. Overcoming
+          challenges such as radiation, low gravity, and limited resources will
+          require innovation and determination. But we believe in the power of
+          human ingenuity to rise to these challenges.
         </div>
-        <div className={style.section}>
-          <div className={style.sectionTitle}>Get Involved</div>
-          <div className={style.sectionContent}>
-            Want to be a part of this exciting journey? You can help in several
-            ways. Donate to support our research and technological development.
-            Spread the word about our cause to your friends, family, and social
-            media followers. Or get involved in space-related research or
-            advocacy in your community. Every effort brings us one step closer
-            to our goal
-          </div>
+      </div>
+      <div className={style.section}>
+        <div className={style.sectionTitle}>Get Involved</div>
+        <div className={style.sectionContent}>
+          Want to be a part of this exciting journey? You can help in several
+          ways. Donate to support our research and technological development.
+          Spread the word about our cause to your friends, family, and social
+          media followers. Or get involved in space-related research or advocacy
+          in your community. Every effort brings us one step closer to our goal
         </div>
       </div>
       <div className={style.contact}>
