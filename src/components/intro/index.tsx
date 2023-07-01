@@ -1,3 +1,4 @@
+import About from "../About";
 import style from "./index.module.css";
 
 export default function Intro() {
@@ -30,33 +31,16 @@ export default function Intro() {
             <img src="stars.png" className={style.stars} />
             <img src="moon.png" className={style.moon} />
             <img src="mountains_behind.png" className={style.mountains} />
-            <h2 className={style.text}>Space Website</h2>
+            <h2 className={style.text}>
+              Mission Mars: Colonize the Red Planet
+            </h2>
             <a href="#" className={style.btn}>
               Explore
             </a>
             <img src="mountains_front.png" className={style.mountains_front} />
           </section>
         </div>
-        <div className={style.sec}>
-          <h2>parrallax scrolling effects</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            exercitationem provident debitis ullam hic temporibus tenetur magnam
-            consectetur, quo illo sit ipsam at suscipit velit voluptas minima,
-            est doloremque quisquam. <br></br> Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Illum, laborum temporibus! Magni
-            necessitatibus asperiores saepe, tempore animi impedit tempora, amet
-            exercitationem veritatis debitis consectetur modi enim ratione
-            consequuntur delectus deserunt? <br></br> Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Libero assumenda distinctio deserunt
-            nostrum? Incidunt sunt aliquid, officia nam impedit harum quos aut
-            exercitationem. Vitae fuga sed laudantium, culpa sequi ullam!
-            <br></br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Iste architecto repudiandae facere est vitae provident dolore
-            delectus sed omnis necessitatibus! Sit quibusdam ipsam quod, fugit
-            libero deleniti? Saepe, eum ab.
-          </p>
-        </div>
+        <About />
       </div>
     </div>
   );
